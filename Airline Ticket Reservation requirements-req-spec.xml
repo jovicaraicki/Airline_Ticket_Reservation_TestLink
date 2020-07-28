@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<requirement-specification>
+<req_spec title="Airline Ticket Reservation requirements"  doc_id="atr"  >
+	<revision><![CDATA[1]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[1]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[<p>All requirements for Airline Ticket Reservation web application</p>]]></scope>
+			<requirement>
+		<docid><![CDATA[ARQ1]]></docid>
+		<title><![CDATA[​ATRS should have a customer user interface]]></title>
+		<version>1</version>
+		<revision>2</revision>
+		<node_order>1</node_order>
+		<description><![CDATA[<p>User Interfaces 4.1.1.1</p>
+
+<p>Airline Ticket Reservation System&nbsp;should have a customer user interface.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[ARQ2]]></docid>
+		<title><![CDATA[ATRS should have an administrator user interface]]></title>
+		<version>1</version>
+		<revision>2</revision>
+		<node_order>2</node_order>
+		<description><![CDATA[<p>User Interfaces 4.1.1.2</p>
+
+<p>Airline Ticket Reservation System should have an administrator user interface.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[ARQ3]]></docid>
+		<title><![CDATA[Customer user interface should have a GUI]]></title>
+		<version>1</version>
+		<revision>2</revision>
+		<node_order>3</node_order>
+		<description><![CDATA[<p>User Interfaces 4.1.1.3</p>
+
+<p>Customer user interface should have a graphical user interface (GUI).<br />
+&nbsp;</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[ARQ4]]></docid>
+		<title><![CDATA[Administrator user interface should have a GUI]]></title>
+		<version>1</version>
+		<revision>2</revision>
+		<node_order>4</node_order>
+		<description><![CDATA[<p>User Interfaces 4.1.1.4</p>
+
+<p>Administrator user interface should have a graphical user interface (GUI).<br />
+&nbsp;</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[ARQ5]]></docid>
+		<title><![CDATA[Specific dates for one-way trips]]></title>
+		<version>1</version>
+		<revision>2</revision>
+		<node_order>5</node_order>
+		<description><![CDATA[<p>Functional Requirements 4.2.1</p>
+
+<p>Customer should be able to search flights for a specific date for one-way trips.<br />
+&nbsp;</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[ARQ6]]></docid>
+		<title><![CDATA[Specific date for round trips]]></title>
+		<version>1</version>
+		<revision>2</revision>
+		<node_order>6</node_order>
+		<description><![CDATA[<p>Functional Requirements 4.2.2</p>
+
+<p>Customer should be able to search flights for specific dates for round trips.<br />
+&nbsp;</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[ARQ7]]></docid>
+		<title><![CDATA[Search flights for multiple destinations]]></title>
+		<version>1</version>
+		<revision>2</revision>
+		<node_order>7</node_order>
+		<description><![CDATA[<p>Functional Requirements 4.2.3</p>
+
+<p>Customer should be able to search flights for multiple destinations.<br />
+&nbsp;</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[ARQ8]]></docid>
+		<title><![CDATA[Departure and arrival cities]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>8</node_order>
+		<description><![CDATA[<p>Functional Requirements 4.2.4</p>
+
+<p>Customer should be able to manually enter the names of departure and arrival cities.<br />
+&nbsp;</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[ARQ9]]></docid>
+		<title><![CDATA[Sorting flights by price]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>9</node_order>
+		<description><![CDATA[<p>Customer should be able to sort the list of possible flights by price<br />
+&nbsp;</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[ARQ10]]></docid>
+		<title><![CDATA[Sorting flights by duration of flight]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>10</node_order>
+		<description><![CDATA[<p>Customer should be able to sort the list of possible flights duration of flight<br />
+&nbsp;</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[ARQ11]]></docid>
+		<title><![CDATA[Manually entering card details]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>11</node_order>
+		<description><![CDATA[<p>System should offer payment via manually manually entering card details as default payment method to customer<br />
+&nbsp;</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[ARQ12]]></docid>
+		<title><![CDATA[Administrator can add new flight]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>12</node_order>
+		<description><![CDATA[<p>Administrator should be able to add new flights to the system</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+</req_spec>
+</requirement-specification>

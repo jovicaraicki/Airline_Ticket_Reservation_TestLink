@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite id="669" name="Airline Ticket Reservation" >
+<node_order><![CDATA[1]]></node_order>
+<details><![CDATA[<p>&nbsp;Airline Ticket Reservation - Software Requirement Specificarion</p>
+]]></details> 
+
+<testcase internalid="670" name="ATR - Use Case ID 01 -  Search for flights - successful scenario">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[1]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Airline Ticket Reservation - SRS</p>
+
+<p>Use Case ID 01 - Customer</p>
+
+<p>Search for flights -&nbsp;Customer searches for the flights on specific dates - successful scenario</p>
+
+<p>Page 10<br />
+&nbsp;</p>
+]]></summary>
+	<preconditions><![CDATA[<p>ATRS should be a web-based system.</p>
+
+<p>It should be possible to open and use the website on the computers with operating<br />
+systems of Microsoft 7, Microsoft 8, Microsoft 10, Mac Os, Linux, Ubuntu.</p>
+
+<p>Oracle Database 12C should be used to store the data about flight details.</p>
+
+<p>Oracle Database 12C should be used to store the data about users.</p>
+
+<p>HTTP protocol should be used as an interface of communication between client and server sides.</p>
+
+<p>Internet connection</p>
+
+<p>Customer exists</p>
+
+<p>Customer should have internet connection and be able to access to the website</p>
+
+<p>&nbsp;</p>
+
+<p>SETUP: Customer enters airline&#39;s website</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Choose specific date</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Specific date has been chosen</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Wait for the system to display flights on given date</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Flight for given date has been displayed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+	<requirements>
+		<requirement>
+			<req_spec_title><![CDATA[Airline Ticket Reservation requirements]]></req_spec_title>
+			<doc_id><![CDATA[ARQ1]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[​ATRS should have a customer user interface]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Airline Ticket Reservation requirements]]></req_spec_title>
+			<doc_id><![CDATA[ARQ3]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[Customer user interface should have a GUI]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Airline Ticket Reservation requirements]]></req_spec_title>
+			<doc_id><![CDATA[ARQ5]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[Specific dates for one-way trips]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Airline Ticket Reservation requirements]]></req_spec_title>
+			<doc_id><![CDATA[ARQ6]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[Specific date for round trips]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Airline Ticket Reservation requirements]]></req_spec_title>
+			<doc_id><![CDATA[ARQ7]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[Search flights for multiple destinations]]></title>
+		</requirement>
+	</requirements>
+</testcase>
+
+<testcase internalid="782" name="ATR - Use Case ID 12 - Sort flights">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[7]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Airline Ticket Reservation - SRS</p>
+
+<p>Use Case ID 12&nbsp;- Customer</p>
+
+<p>Search for flights -&nbsp;Customer wants to sort flights - successful scenario</p>
+
+<p>Page 10 - 11</p>
+]]></summary>
+	<preconditions><![CDATA[<p>ATRS should be a web-based system.</p>
+
+<p>It should be possible to open and use the website on the computers with operating<br />
+systems of Microsoft 7, Microsoft 8, Microsoft 10, Mac Os, Linux, Ubuntu.</p>
+
+<p>Oracle Database 12C should be used to store the data about flight details.</p>
+
+<p>Oracle Database 12C should be used to store the data about users.</p>
+
+<p>HTTP protocol should be used as an interface of communication between client and server sides.</p>
+
+<p>Internet connection</p>
+
+<p>Customer exists</p>
+
+<p>System has displayed the list of available flights based on customer&rsquo;s query</p>
+
+<p>&nbsp;</p>
+
+<p>SETUP: Customer enters airline&#39;s website</p>
+
+<p>&nbsp;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Search for the flights</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Flight search has been done</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Wait for the system to display list of available flights</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>List of available flights appears on the screen</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Sort list of flights by price</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Sorting has been triggered</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Wait for the system to display list of flights sorted by price</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>System displays list of flights sorted by price</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Sort list of flights by duration of flight</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Sorting has been triggered</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Wait for the system to display list of flights sorted by duration of flight</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>System displays list of flights sorted by duration of flight</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+	<requirements>
+		<requirement>
+			<req_spec_title><![CDATA[Airline Ticket Reservation requirements]]></req_spec_title>
+			<doc_id><![CDATA[ARQ1]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[​ATRS should have a customer user interface]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Airline Ticket Reservation requirements]]></req_spec_title>
+			<doc_id><![CDATA[ARQ10]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[Sorting flights by duration of flight]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Airline Ticket Reservation requirements]]></req_spec_title>
+			<doc_id><![CDATA[ARQ3]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[Customer user interface should have a GUI]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Airline Ticket Reservation requirements]]></req_spec_title>
+			<doc_id><![CDATA[ARQ9]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[Sorting flights by price]]></title>
+		</requirement>
+	</requirements>
+</testcase>
+
+<testcase internalid="794" name="ATR - Use Case ID 20 - Payment">
+	<node_order><![CDATA[1002]]></node_order>
+	<externalid><![CDATA[8]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Airline Ticket Reservation - SRS</p>
+
+<p>Use Case ID 20&nbsp;- Customer</p>
+
+<p>Search for flights -&nbsp;Customer proceeds with the payment of the booked flight - successful scenario</p>
+
+<p>Page 11&nbsp;- 12</p>
+]]></summary>
+	<preconditions><![CDATA[<p>ATRS should be a web-based system.</p>
+
+<p>It should be possible to open and use the website on the computers with operating<br />
+systems of Microsoft 7, Microsoft 8, Microsoft 10, Mac Os, Linux, Ubuntu.</p>
+
+<p>Oracle Database 12C should be used to store the data about flight details.</p>
+
+<p>Oracle Database 12C should be used to store the data about users.</p>
+
+<p>HTTP protocol should be used as an interface of communication between client and server sides.</p>
+
+<p>Internet connection</p>
+
+<p>Customer exists</p>
+
+<p>Customer has selected the available flight and ticket type of his/her choice</p>
+
+<p>&nbsp;</p>
+
+<p>SETUP: Customer enters airline&#39;s website</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click Book Now button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Bok Now button has been clicked</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Wait for the system to ask card details</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>System ask for card details</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Enter card details</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Card details has been entered</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click on the Make Payment button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Make Payment button has been clicked</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Wait for the system to handle the payment</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>System displays confirmation of the payment</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Wait for the system to send an invoice to customer&#39;s email</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>System has been sent an email to a customer&#39;s&nbsp;email</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+	<requirements>
+		<requirement>
+			<req_spec_title><![CDATA[Airline Ticket Reservation requirements]]></req_spec_title>
+			<doc_id><![CDATA[ARQ1]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[​ATRS should have a customer user interface]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Airline Ticket Reservation requirements]]></req_spec_title>
+			<doc_id><![CDATA[ARQ11]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[Manually entering card details]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Airline Ticket Reservation requirements]]></req_spec_title>
+			<doc_id><![CDATA[ARQ3]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[Customer user interface should have a GUI]]></title>
+		</requirement>
+	</requirements>
+</testcase>
+
+<testcase internalid="806" name="ATR - Use Case ID 25 - Adding new flights - successful scenario">
+	<node_order><![CDATA[1003]]></node_order>
+	<externalid><![CDATA[9]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Airline Ticket Reservation - SRS</p>
+
+<p>Use Case ID 25&nbsp;- Administrator</p>
+
+<p>Search for flights -&nbsp;Administrator adds new flights to the system - successful scenario</p>
+
+<p>Page 12&nbsp;- 13</p>
+]]></summary>
+	<preconditions><![CDATA[<p>ATRS should be a web-based system.</p>
+
+<p>It should be possible to open and use the website on the computers with operating<br />
+systems of Microsoft 7, Microsoft 8, Microsoft 10, Mac Os, Linux, Ubuntu.</p>
+
+<p>Oracle Database 12C should be used to store the data about flight details.</p>
+
+<p>Oracle Database 12C should be used to store the data about users.</p>
+
+<p>HTTP protocol should be used as an interface of communication between client and server sides.</p>
+
+<p>Internet connection</p>
+
+<p>Administrator&nbsp;exists</p>
+
+<p>Administrator successfully logs in to the system</p>
+
+<p>&nbsp;</p>
+
+<p>SETUP: Administrator enters airline&#39;s website</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Log to the admin panel</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Logging to the admin panel is successful</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Add detail about new flights to the system</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Detail about new flights has been added to the system</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Submit the addition about new flights to the system</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The addition about new flights has been submited to th esystem</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+	<requirements>
+		<requirement>
+			<req_spec_title><![CDATA[Airline Ticket Reservation requirements]]></req_spec_title>
+			<doc_id><![CDATA[ARQ1]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[​ATRS should have a customer user interface]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Airline Ticket Reservation requirements]]></req_spec_title>
+			<doc_id><![CDATA[ARQ12]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[Administrator can add new flight]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Airline Ticket Reservation requirements]]></req_spec_title>
+			<doc_id><![CDATA[ARQ3]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[Customer user interface should have a GUI]]></title>
+		</requirement>
+	</requirements>
+</testcase>
+</testsuite>
